@@ -1,3 +1,4 @@
+import br.com.dio.desafio.Conteudo;
 import br.com.dio.desafio.Curso;
 import br.com.dio.desafio.Mentoria;
 
@@ -17,6 +18,10 @@ public class Main {
 
         System.out.println(curso1);
         System.out.println(curso2);
+
+        // Polimorfismo
+        Conteudo conteudo1 = new Curso();
+        Conteudo conteudo2 = new Mentoria();
 
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Paradgmas da Programação");
